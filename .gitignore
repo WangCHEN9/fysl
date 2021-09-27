@@ -17,17 +17,6 @@ __pycache__/
 # C extensions
 *.so
 
-# audio files
-*.wav
-*.ppt
-*.pdf
-*.pptx
-*.npy
-*.npz
-*.jpg
-*.xml
-*.txt
-
 # Distribution / packaging
 .Python
 build/

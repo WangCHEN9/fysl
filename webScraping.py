@@ -94,7 +94,7 @@ class ws37express(webScraping):
         df = pd.DataFrame(data = d)
         return df
 
-    def get_df_for_one_page(self, page_number:int):
+    def get_df_for_one_page(self, page_number:int) -> pd.DataFrame:
         dfs = []
         item_lists = self.get_item_list_from_soup(page_number)
 
@@ -104,7 +104,7 @@ class ws37express(webScraping):
         df_merge = pd.concat(dfs)
         return df_merge.reset_index(drop=True)
 
-    def run(self):
+    def run(self) -> pd.DataFrame:
         dfs = []
         for i in range(1, self.num_of_pages+1):
             dfs.append(ws37.get_df_for_one_page(i))

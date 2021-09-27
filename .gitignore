@@ -28,14 +28,6 @@ __pycache__/
 *.xml
 *.txt
 
-# excels
-*.xlsx
-*.csv
-*.xls
-*.xlsm
-*.ppt
-*.pptx
-
 # Distribution / packaging
 .Python
 build/

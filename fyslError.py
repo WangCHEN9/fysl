@@ -1,5 +1,2 @@
-
 class fyslFormatError(Exception):
     pass
-
-
